@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(270deg, rgb(189, 189, 189), rgb(122, 122, 122));
+}
+.button:hover {
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+}
+.copyright {
+  text-decoration: none;
+  font-weight: 500;
+}
+.footer-link:hover,
+.copyright:hover {
+  color: white;
+  text-decoration: underline;
+}
+.link {
+  font-size: 20px;
+}
+.social-facebook .link {
+  color: #4267b2;
+}
+.social-facebook {
+  color: #4267b2;
+  border-radius: 15px;
+  text-decoration: underline;
+  font-weight: 500;
+}
+.social-whatsapp .link {
+  color: #25d366;
+}
+.social-whatsapp {
+  color: #25d366;
+  border-radius: 15px;
+  text-decoration: underline;
+  font-weight: 500;
+}
+.social-twitter .link {
+  color: #00acee;
+}
+.social-twitter {
+  color: #00acee;
+  border-radius: 15px;
+  text-decoration: underline;
+  font-weight: 500;
+}
+.social-instagram .link {
+  color: #c13584;
+}
+.social-instagram {
+  color: #c13584;
+  border-radius: 15px;
+  text-decoration: underline;
+  font-weight: 500;
+}
+.fixedsocial {
+  position: fixed;
+  bottom: 40px;
+  right: 100px;
+}
